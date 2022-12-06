@@ -39,7 +39,10 @@
 			$this->post_model->create_post();
 			redirect('posts');
 		}
+	}
 
-
+	public function delete($id){
+		$this->post_model->delete_post($id);
+		redirect('posts');
 	}
 }
