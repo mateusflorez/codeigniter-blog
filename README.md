@@ -30,8 +30,9 @@
 #Clone the repository.
 git clone https://github.com/mateusflorez/Rails-market.git
 
-#Open the PHPMyAdmin page.
-localhost/phpmyadmin/index.php
+#Put the repository inside you local hosting server directory
+
+#Open your database management page.
 
 #Create a database named 'codeigniterblog'
 
