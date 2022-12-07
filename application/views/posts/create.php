@@ -9,5 +9,13 @@
     <label>Body</label>
     <textarea id="editor1" class="form-control" name="body" placeholder="Add body"></textarea>
   </div>
+  <div class="form-group">
+    <label>Category</label>
+    <select class="form-control" name="category_id">
+      <?php foreach($categories as $category): ?>
+        <option value="<?php echo $category['id']; ?>"><?php echo $category['name']; ?></option>
+      <?php endforeach; ?>
+    </select>
+  </div>
   <button type="submit" class="btn btn-default">Submit</button>
 </form>
