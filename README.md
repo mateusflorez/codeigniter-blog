@@ -28,7 +28,7 @@
 ## Instalation instructions:
 ```
 #Clone the repository.
-git clone https://github.com/mateusflorez/Rails-market.git
+git clone https://github.com/mateusflorez/codeigniter-blog.git
 
 #Put the repository inside you local hosting server directory
 
